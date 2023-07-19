@@ -1,4 +1,4 @@
-function OfferNotLogged (): JSX.Element {
+export function OfferNotLogged (): JSX.Element {
 
   return (
 
@@ -285,5 +285,3 @@ function OfferNotLogged (): JSX.Element {
     </div>
   );
 }
-
-export { OfferNotLogged };

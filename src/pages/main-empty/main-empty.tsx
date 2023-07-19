@@ -1,4 +1,4 @@
-function MainEmpty (): JSX.Element {
+export function MainEmpty (): JSX.Element {
 
   return (
 
@@ -85,5 +85,3 @@ function MainEmpty (): JSX.Element {
     </div>
   );
 }
-
-export { MainEmpty};

@@ -1,4 +1,4 @@
-function FavoritesEmpty() : JSX.Element {
+export function FavoritesEmpty() : JSX.Element {
 
   return (
 
@@ -51,5 +51,3 @@ function FavoritesEmpty() : JSX.Element {
     </div>
   );
 }
-
-export { FavoritesEmpty };

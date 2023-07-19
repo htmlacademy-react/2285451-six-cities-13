@@ -1,4 +1,4 @@
-function PlaceCardPattern (): JSX.Element {
+export function PlaceCardPattern (): JSX.Element {
 
   return (
     <article className="cities__card place-card">
@@ -37,5 +37,3 @@ function PlaceCardPattern (): JSX.Element {
     </article>
   );
 }
-
-export { PlaceCardPattern };

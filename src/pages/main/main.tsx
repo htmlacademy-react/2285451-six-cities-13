@@ -4,7 +4,7 @@ type MainProps = {
   offersQuantity: number;
 };
 
-function Main ({offersQuantity}: MainProps) {
+export function Main ({offersQuantity}: MainProps) {
   return (
 
     <div className="page page--gray page--main">
@@ -110,5 +110,3 @@ function Main ({offersQuantity}: MainProps) {
     </div>
   );
 }
-
-export { Main };

@@ -1,4 +1,4 @@
-function Offer (): JSX.Element {
+export function Offer (): JSX.Element {
 
   return (
     <div className="page">
@@ -336,5 +336,3 @@ function Offer (): JSX.Element {
     </div>
   );
 }
-
-export { Offer };

@@ -1,4 +1,4 @@
-function Favorites (): JSX.Element {
+export function Favorites (): JSX.Element {
 
   return (
 
@@ -169,5 +169,3 @@ function Favorites (): JSX.Element {
     </div>
   );
 }
-
-export { Favorites };

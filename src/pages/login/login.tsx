@@ -1,4 +1,4 @@
-function Login (): JSX.Element {
+export function Login (): JSX.Element {
 
   return (
 
@@ -43,5 +43,3 @@ function Login (): JSX.Element {
     </div>
   );
 }
-
-export { Login };
