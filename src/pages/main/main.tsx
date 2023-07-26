@@ -1,5 +1,7 @@
 import { PlaceCardPattern } from '../../components/place-card-pattern/place-card-pattern';
 
+import { Helmet } from 'react-helmet-async';
+
 type MainProps = {
   offersQuantity: number;
 };
@@ -8,6 +10,9 @@ export function Main ({offersQuantity}: MainProps) {
   return (
 
     <div className="page page--gray page--main">
+      <Helmet>
+        <title>6 cities: Main Page</title>
+      </Helmet>
       <header className="header">
         <div className="container">
           <div className="header__wrapper">
